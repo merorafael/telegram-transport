@@ -1,0 +1,36 @@
+{
+  "name": "@merorafael/telegram-transport",
+  "version": "0.1.0",
+  "description": "Winston transport to send log by Telegram",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merorafael/telegram-transport.git"
+  },
+  "keywords": [
+    "winston",
+    "transport",
+    "telegram",
+    "log",
+    "logger",
+    "bot"
+  ],
+  "peerDependencies": {
+    "winston": "^3.0.0"
+  },
+  "author": "Rafael Mello <merorafael@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/merorafael/telegram-transport/issues"
+  },
+  "homepage": "https://github.com/merorafael/telegram-transport#readme",
+  "devDependencies": {
+    "debug": "^4.1.1"
+  },
+  "dependencies": {
+    "winston-transport": "^4.3.0"
+  }
+}
